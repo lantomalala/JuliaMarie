@@ -1,40 +1,41 @@
+# Portfolio d'Architecture d'Intérieur - Julia MARIE
 
-## Installation
+## À propos du projet
 
+Ce site web est un portfolio professionnel créé avec VitePress pour présenter les services et réalisations de Julia MARIE, architecte d'intérieur. Le site met en avant une approche moderne et élégante de l'architecture d'intérieur, reflétant le professionnalisme et l'expertise de Julia.
+
+## Technologies utilisées
+
+- [VitePress](https://vitepress.dev/) - Générateur de site statique
+- Markdown - Pour le contenu
+- Vue.js - Pour les composants interactifs
+
+## Fonctionnalités
+
+- Page d'accueil personnalisée avec présentation professionnelle
+- Section services détaillée
+- Galerie de projets récents
+- Formulaire de contact
+- CV téléchargeable
+- Design responsive
+
+## Structure du projet
 1. Clonez le repository
-\`\`\`bash
+```bash
 git clone [url-du-repository]
-\`\`\`
+```
 
 2. Installez les dépendances
-\`\`\`bash
+```bash
 npm install
-\`\`\`
+```
 
 3. Lancez le serveur de développement
-\`\`\`bash
+```bash
 npm run docs:dev
-\`\`\`
+```
 
 4. Pour construire le site
-\`\`\`bash
+```bash
 npm run docs:build
-\`\`\`
-
-## Personnalisation
-
-Le site peut être personnalisé en modifiant les fichiers suivants :
-- `docs/index.md` - Contenu de la page d'accueil
-- `docs/.vitepress/config.js` - Configuration VitePress
-- `docs/public/` - Assets statiques
-
-## Contact
-
-Julia MARIE
-- Email : julia.marie@architecte-interieur.com
-- Téléphone : +33 6 12 34 56 78
-- Adresse : 15 Rue des Architectes, 75008 Paris, France
-
-## Licence
-
-Ce projet est sous licence MIT. Voir le fichier `LICENSE` pour plus de détails.
+```
